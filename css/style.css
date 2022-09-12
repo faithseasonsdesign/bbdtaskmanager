@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+body{
+	background-color:#e9ecef;
+}
+body{
+	background-color:#e9ecef;
+}
+/*navigation coding start*/
+.nav-child-wrapper{
+	max-width:1600px;
+	padding:20px;
+}
+.logo{
+	height:140px;
+}
+.sm-nav-list-wrapper{
+	background-color:black;
+	height:50vh;
+	position:absolute;
+	left:0;
+	right:0;
+	top:20vh;
+}
+/*navigation coding ended*/
+
+
+
+/*dashboard coding start*/
+.tot_department-card{
+	background-color:#f5930b !important;
+}
+.tot_employees_card{
+	background-color:#bd2130;
+}
+.pending_task_card{
+	background-color:#0062cc;
+}
+.complete_tasks_card{
+	background-color:#1e7e34;
+}
+
+
+@media screen and (max-width:767px){
+	.dashboard-content{
+		row-gap:5px;
+	}
+}
+@media screen and (max-width:250px){
+	.nav-child-wrapper{
+		flex-direction:column;
+	}
+	.nav-btn-wrapper{
+		justify-content:center !important;
+	}
+}
+/*dashboard coding ended*/
+
+/*edit task page coding start here*/
+.edit_task_wrapper{
+	row-gap:10px;
+}
+/*edit task page coding ended here*/
